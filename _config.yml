@@ -1,5 +1,6 @@
 # The Site Configuration
 
+
 # Import the theme
 theme: jekyll-theme-chirpy
 
@@ -8,25 +9,25 @@ theme: jekyll-theme-chirpy
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-# Change to your timezone › https://zones.arilyn.cc
-timezone:
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+timezone: Asia/Calcutta
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: OhmLaws # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Electrify your learning # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Easy-to-use site for ITI students featuring MCQs and topic-based question and answers for 1st and 2nd year ITI Electrician trade.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: 'https://ohmlaws.github.io'
 
 github:
-  username: github_username # change to your GitHub username
+  username: Roniui # change to  your GitHub username
 
 twitter:
   username: twitter_username # change to your Twitter username
@@ -34,20 +35,19 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: OhmLaws
+  email: roniui.github.io@gmail.com # change to your email address
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    # The first element serves as the copyright owner's link    
+    - https://roniui.github.io # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
-  bing: # fill in your Bing verification code
+  google: Kd7z8muPNZR2U0KH-ig-JQZUHBuv87JVsIFUOd1knpw # fill in your Google verification code
+  bing: E9A6F0BC622DEF8BC93FE6B9893AF1DC    # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
   baidu: # fill in your Baidu verification code
@@ -98,11 +98,11 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://roniui.github.io/assets/images/people/avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: https://roniui.github.io/assets/images/people/avatar.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -150,7 +150,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/secondyea"
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -224,3 +224,4 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+    
