@@ -14,7 +14,7 @@ image:
 <br>
 <div onclick="checkAnswer(this)" style="text-align: center;">⭕️ Show all Answers</div>
 <br>
-<h3>Q1: Which is elastic material?</h3>
+<h3 id="q1">Q1: Which is elastic material?</h3>
 <ul>
   <li onclick="checkAnswer(this, true)" data-correct="true">Nylon</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">Polystyrenes</li>
@@ -23,7 +23,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q2: Which is thermo plastic material?</h3>
+<h3 id="q2">Q2: Which is thermo plastic material?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Butyl rubber</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">Nylon</li>
@@ -32,7 +32,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q3: What is the maximum percentage of stretch of its original length allowable for elastic materials?</h3>
+<h3 id="q3">Q3: What is the maximum percentage of stretch of its original length allowable for elastic materials?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">100%</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">200%</li>
@@ -41,7 +41,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q4: What is the ratio between the change in dimension to its original dimension of the substance?</h3>
+<h3 id="q4">Q4: What is the ratio between the change in dimension to its original dimension of the substance?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Stress</li>
   <li onclick="checkAnswer(this, true)" data-correct="true">Strain</li>
@@ -50,7 +50,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q5: What is the unit of strain?</h3>
+<h3 id="q5">Q5: What is the unit of strain?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Kg/cm²</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">Newton/metre</li>
@@ -59,7 +59,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q6: What is the ratio of change in length to original length?</h3>
+<h3 id="q6">Q6: What is the ratio of change in length to original length?</h3>
 <ul>
   <li onclick="checkAnswer(this, true)" data-correct="true">Linear strain</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">Lateral strain</li>
@@ -68,7 +68,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q7: What is the ratio between lateral strain and longitudinal strain?</h3>
+<h3 id="q7">Q7: What is the ratio between lateral strain and longitudinal strain?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Hooke's law</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">Young's modulus</li>
@@ -77,7 +77,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q8: Which symbol is used to express change in length?</h3>
+<h3 id="q8">Q8: Which symbol is used to express change in length?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">L</li>
   <li onclick="checkAnswer(this, true)" data-correct="true">δl</li>
@@ -86,7 +86,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q9: Which one is the ratio of stress?</h3>
+<h3 id="q9">Q9: Which one is the ratio of stress?</h3>
 <ul>
   <li onclick="checkAnswer(this, true)" data-correct="true">Load and area</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">Load and direction</li>
@@ -95,7 +95,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q10: Which force acts on rivets?</h3>
+<h3 id="q10">Q10: Which force acts on rivets?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Tensile force</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">Compressive force</li>
@@ -104,7 +104,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q11: Which type of stress?</h3>
+<h3 id="q11">Q11: Which type of stress?</h3>
 <img src="/assets/img/posts/wcs/m4-q11.webp" alt="shear stress">
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Tensile stress</li>
@@ -114,7 +114,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q12: What is the formula for bulk modulus?</h3>
+<h3 id="q12">Q12: What is the formula for bulk modulus?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Tensile stress / Tensile strain</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">Compressive stress / Compressive strain</li>
@@ -123,7 +123,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q13: Which law states that within elastic limit, stress is directly proportional to strain?</h3>
+<h3 id="q13">Q13: Which law states that within elastic limit, stress is directly proportional to strain?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Newton’s law</li>
   <li onclick="checkAnswer(this, true)" data-correct="true">Hooke’s law</li>
@@ -132,7 +132,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q14: What is the name of the point 'C'?</h3>
+<h3 id="q14">Q14: What is the name of the point 'C'?</h3>
 <img src="/assets/img/posts/wcs/m4-14.webp" alt="yield point">
 <ul>
   <li onclick="checkAnswer(this, true)" data-correct="true">Yield point</li>
@@ -142,7 +142,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q15: What is the term used for maximum stress attained by a material before rupture?</h3>
+<h3 id="q15">Q15: What is the term used for maximum stress attained by a material before rupture?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Tensile stress</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">Compressive stress</li>
@@ -151,7 +151,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q16: What is the ratio between ultimate stress to working stress?</h3>
+<h3 id="q16">Q16: What is the ratio between ultimate stress to working stress?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Bulk modulus</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">Young's modulus</li>
@@ -160,7 +160,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q17: What is the ratio of ultimate load to area of original cross section?</h3>
+<h3 id="q17">Q17: What is the ratio of ultimate load to area of original cross section?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Factor of safety</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">Yield point</li>
@@ -169,7 +169,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q18: What does the point 'b' denote in the stress-strain graph?</h3>
+<h3 id="q18">Q18: What does the point 'b' denote in the stress-strain graph?</h3>
 <img src="/assets/img/posts/wcs/m4-14.webp" alt="elastic limit">
 <ul>
   <li onclick="checkAnswer(this, true)" data-correct="true">Elastic limit</li>
@@ -179,7 +179,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q19: What is the ratio of shear stress to shear strain?</h3>
+<h3 id="q19">Q19: What is the ratio of shear stress to shear strain?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Modulus of elasticity</li>
   <li onclick="checkAnswer(this, true)" data-correct="true">Modulus of rigidity</li>
@@ -188,7 +188,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q20: What is the ratio between stress and strain?</h3>
+<h3 id="q20">Q20: What is the ratio between stress and strain?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Yield point</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">Factor of safety</li>
@@ -197,7 +197,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q21: Which force acts on crank shaft?</h3>
+<h3 id="q21">Q21: Which force acts on crank shaft?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Shear stress</li>
   <li onclick="checkAnswer(this, true)" data-correct="true">Torsional stress</li>
@@ -206,7 +206,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q22: Which is thermosetting plastic?</h3>
+<h3 id="q22">Q22: Which is thermosetting plastic?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Vinyl polymers</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">Polystyrenes</li>
@@ -215,7 +215,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q23: What force will be required to punch a hole of 10mm dia in a 1 mm thick plate, if the allowable shear stress is 50N/mm²? (π = 22/7)</h3>
+<h3 id="q23">Q23: What force will be required to punch a hole of 10mm dia in a 1 mm thick plate, if the allowable shear stress is 50N/mm²? (π = 22/7)</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">1757 N</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">1575 N</li>
@@ -224,7 +224,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q24: What is the tensile stress if a square rod of 10mm side is tested for a tensile load of 1000 kg?</h3>
+<h3 id="q24">Q24: What is the tensile stress if a square rod of 10mm side is tested for a tensile load of 1000 kg?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">1 kg/mm²</li>
   <li onclick="checkAnswer(this, true)" data-correct="true">10 kg/mm²</li>
@@ -233,7 +233,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q25: What is the tensile strain if a force of 3.2 kN is applied to a bar of original length 2800 mm extends the bar by 0.5 mm?</h3>
+<h3 id="q25">Q25: What is the tensile strain if a force of 3.2 kN is applied to a bar of original length 2800 mm extends the bar by 0.5 mm?</h3>
 <ul>
   <li onclick="checkAnswer(this, true)" data-correct="true">0.0001786</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">0.0001687</li>
@@ -242,7 +242,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q26: How much strain is developed in an iron rod of 1 metre length gets elongated by 1 cm, if a force of 100 kg is applied at one end?</h3>
+<h3 id="q26">Q26: How much strain is developed in an iron rod of 1 metre length gets elongated by 1 cm, if a force of 100 kg is applied at one end?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">0.1</li>
   <li onclick="checkAnswer(this, true)" data-correct="true">0.01</li>
@@ -251,7 +251,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q27: What is the Young’s modulus if a wire of 2m long, 0.8 mm² in cross section increases its length by 1.6 mm on suspension of 8 kg weight from it?</h3>
+<h3 id="q27">Q27: What is the Young’s modulus if a wire of 2m long, 0.8 mm² in cross section increases its length by 1.6 mm on suspension of 8 kg weight from it?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">1.25 kg/mm²</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">12.5 kg/mm²</li>
@@ -260,7 +260,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q28: What is the safe stress if the ultimate stress of a material is 35 kg/mm² and factor of safety is 5?</h3>
+<h3 id="q28">Q28: What is the safe stress if the ultimate stress of a material is 35 kg/mm² and factor of safety is 5?</h3>
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">0.143</li>
   <li onclick="checkAnswer(this, false)" data-correct="false">0.7</li>
@@ -269,7 +269,7 @@ image:
 </ul>
 <hr>
 
-<h3>Q29: Which type of stress?</h3>
+<h3 id="q29">Q29: Which type of stress?</h3>
 <img src="/assets/img/posts/wcs/m4-q29.webp" alt="compressive stress">
 <ul>
   <li onclick="checkAnswer(this, false)" data-correct="false">Tensile stress</li>
