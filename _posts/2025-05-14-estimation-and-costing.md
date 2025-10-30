@@ -3,8 +3,8 @@ title: "Estimation and Costing"
 description: >-
   Workshop Calculation and Science, Module-6
 date: 2025-05-14 01:40:39 +0530
-categories: [2nd year, WCS]
-tags: [WCS, ITI]
+categories: [2nd year, Workshop Calculation]
+tags: [Workshop Calculation, ITI]
 math: true
 author: Roni
 image:
