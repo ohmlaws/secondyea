@@ -3,8 +3,8 @@ title: "Area of cut out regular Surfaces and Irregular surfaces"
 description: >-
   Workshop Calculation and Science, Module-2
 date: 2025-05-14 01:25:32 +0530
-categories: [2nd year, WCS]
-tags: [WCS, ITI]
+categories: [2nd year, Workshop Calculation]
+tags: [Workshop Calculation, ITI]
 math: true
 author: Roni
 image:
