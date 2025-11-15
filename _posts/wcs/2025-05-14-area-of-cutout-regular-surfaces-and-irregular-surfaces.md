@@ -36,7 +36,7 @@ image:
 <h3 id="q3">Q3: What is the area of irregular shape by Simpson's rule?</h3>
 <img src="/assets/img/posts/wcs/m2-q3.webp" alt="Simpson's rule">
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true" style="font-size: 95%;">\(\frac{3h}{8} \left[y_1 + y_n + 4(y_2 + y_4 + y_6) + 2(y_3 + y_5)\right]\)</li>
+<li onclick="checkAnswer(this, true)" data-correct="true" style="font-size: 90%;">\(\frac{h}{3} \left[y_1 + y_n + 4(y_2 + y_4 + y_6) + 2(y_3 + y_5 + y_7)\right]\)</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">\(2h [y_1 + y_n]\)</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">\(3h [y_2 + y_4 + y_6]\)</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">\(2h [y_1 + y_n + (y_2 + y_3)]\)</li>
